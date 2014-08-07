@@ -1,0 +1,3 @@
+just use cat output into .emacs file
+
+cat xxx >> ~/.emacs
