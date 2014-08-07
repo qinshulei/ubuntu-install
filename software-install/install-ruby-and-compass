@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt-get install ruby
+sudo apt-get install rubygems
+sudo gem update --system
+sudo gem install compass
