@@ -1,2 +1,2 @@
 #!/bin/bash
-git clone https://github.com/purcell/emacs.d.git ~/.emacs.d
+git clone https://github.com/qinshulei/emacs.d.git ~/.emacs.d
