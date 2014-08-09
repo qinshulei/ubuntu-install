@@ -1,0 +1,16 @@
+#!/bin/bash
+base_dir=$(cd "$(dirname "$0")"; pwd)
+
+## install guke
+${base_dir}/software-install/install-guake
+
+## install emacs
+${base_dir}/software-install/install-emacs24
+${base_dir}/emacs-setting/init-with-purcell-setting
+
+## install node
+${base_dir}/software-install/install-nodejs
+${base_dir}/npm-install/install-yo-bower-grunt
+
+## install ruby and compass
+${base_dir}/software-install/install-ruby-and-compass
