@@ -1,8 +1,8 @@
 # shell tools
 It's used for record software install and system setting.
 
-please clone to your home first.
-```shell
+## please clone to your home first.
+```
 cd ~
 git clone https://coding.net/qinshulei/ubuntu-shell.git
 ```
