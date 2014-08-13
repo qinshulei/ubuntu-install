@@ -4,6 +4,9 @@ base_dir=$(cd "$(dirname "$0")"; pwd)
 ## install guke
 ${base_dir}/software-install/install-guake
 
+## install markdown
+${base_dir}/software-install/install-markdown
+
 ## install emacs
 ${base_dir}/software-install/install-emacs24
 ${base_dir}/emacs-setting/init-with-purcell-setting
