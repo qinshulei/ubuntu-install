@@ -15,10 +15,16 @@ cd ~/ubuntu-shell
 
 ## 局部安装
 
-### guake 安装
+### guake 安装 ： 一款很好用的终端
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-guake
+```
+
+### shutter 安装 : 截屏软件
+```shell
+cd ~/ubuntu-shell
+./software-install/install-shutter
 ```
 
 ### emacs 安装
