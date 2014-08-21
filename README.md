@@ -46,3 +46,9 @@ cd ~/ubuntu-shell
 cd ~/ubuntu-shell
 ./software-install/install-ruby-and-compass
 ```
+
+### mongodb 安装
+```shell
+cd ~/ubuntu-shell
+./software-install/install-mongodb
+```
