@@ -21,3 +21,6 @@ ${base_dir}/software-install/install-ruby-and-compass
 
 ## install shutter
 ${base_dir}/software-install/install-shutter
+
+## install mongoDB
+${base_dir}/software-install/install-mongodb
