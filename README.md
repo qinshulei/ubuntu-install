@@ -52,3 +52,9 @@ cd ~/ubuntu-shell
 cd ~/ubuntu-shell
 ./software-install/install-mongodb
 ```
+
+### zsh install
+```shell
+cd ~/ubuntu-shell
+./software-install/install-zsh
+```
