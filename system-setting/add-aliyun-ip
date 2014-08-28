@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo echo "121.40.89.212 aliyun" >> /etc/hosts
+#sudo service networking restart
