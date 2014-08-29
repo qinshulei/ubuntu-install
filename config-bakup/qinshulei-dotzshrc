@@ -45,7 +45,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git bower command-not-found common-aliases)
+plugins=(git bower command-not-found common-aliases jsontools mvn node npm python sudo urltools web-search)
 
 source $ZSH/oh-my-zsh.sh
 
