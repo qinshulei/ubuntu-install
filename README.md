@@ -58,3 +58,9 @@ cd ~/ubuntu-shell
 cd ~/ubuntu-shell
 ./software-install/install-zsh
 ```
+
+### ack install : grep 的一个替代品
+```shell
+cd ~/ubuntu-shell
+./software-install/install-ack
+```
