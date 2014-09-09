@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get install php5-json
+git clone https://github.com/afaqurk/linux-dash.git ~/source-install/linux-dash
+sudo ln -s  ~/source-install/linux-dash /var/www
