@@ -1,0 +1,27 @@
+// ==UserScript==
+// @name           Cya WMD shortcuts
+// @namespace      Rob W
+// @version        1.0
+// @match          http://superuser.com/*
+// @match          http://meta.superuser.com/*
+// @match          http://serverfault.com/*
+// @match          http://meta.serverfault.com/*
+// @match          http://askubuntu.com/*
+// @match          http://meta.askubuntu.com/*
+// @match          http://*.stackexchange.com/*
+// @match          http://answers.onstartups.com/*
+// @match          http://meta.answers.onstartups.com/*
+// @match          http://stackapps.com/*
+// @run-at         document-end
+// @grant          none
+// ==/UserScript==
+
+(typeof unsafeWindow !== 'undefined' ? unsafeWindow : window).$(function() {
+    var p = document.getElementById('wmd-input');
+    if (!p) return;
+    p = p.parentNode;
+    function ignore(e){e.stopPropagation();}    
+    p.addEventListener('keydown', ignore, true);
+    p.addEventListener('keypress', ignore, true);
+    p.addEventListener('keyup', ignore, true);
+});
