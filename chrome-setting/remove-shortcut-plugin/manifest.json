@@ -1,0 +1,23 @@
+{
+    "name": "Cya WMD shortcuts",
+    "manifest_version": 2,
+    "version": "1.0",
+    "content_scripts": [{
+        "js": ["contentscript.js"],
+        "matches": [
+            "http://stackoverflow.com/*",
+            "http://meta.stackoverflow.com/*",
+            "http://superuser.com/*",
+            "http://meta.superuser.com/*",
+            "http://serverfault.com/*",
+            "http://meta.serverfault.com/*",
+            "http://askubuntu.com/*",
+            "http://meta.askubuntu.com/*",
+            "http://*.stackexchange.com/*",
+            "http://answers.onstartups.com/*",
+            "http://meta.answers.onstartups.com/*",
+            "http://stackapps.com/*",
+            "http://www.compileonline.com/*"
+        ]
+    }]
+}
