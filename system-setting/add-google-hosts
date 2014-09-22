@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# https://github.com/txthinking/google-hosts
+curl http://tx.txthinking.com/fuckGFW.py | sudo python
+google-chrome https://www.google.com/ncr
