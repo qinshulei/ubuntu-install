@@ -30,3 +30,6 @@ ${base_dir}/software-install/install-zsh
 
 # install ack
 ${base_dir}/software-install/install-ack
+
+# install htop
+${base_dir}/software-install/install-htop

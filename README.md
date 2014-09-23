@@ -64,3 +64,9 @@ cd ~/ubuntu-shell
 cd ~/ubuntu-shell
 ./software-install/install-ack
 ```
+
+### htop : top  的替代品
+```shell
+cd ~/ubuntu-shell
+./software-install/install-htop
+```
