@@ -1,2 +1,3 @@
 #!/bin/bash
+# website : https://github.com/Guake/guake/
 sudo apt-get install guake

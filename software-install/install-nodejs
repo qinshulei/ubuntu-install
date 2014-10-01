@@ -1,4 +1,5 @@
 #!/bin/bash
+# website : http://www.nodejs.org
 sudo apt-get install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update

@@ -1,2 +1,3 @@
 #!/bin/bash
+# website : http://shutter-project.org
 sudo apt-get install shutter
