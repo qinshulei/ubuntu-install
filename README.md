@@ -7,6 +7,9 @@
 ```
 cd ~
 git clone https://coding.net/qinshulei/ubuntu-shell.git
+cd ubuntu-shell
+git submodule init
+git submodule update
 ```
 
 ## 全部安装
