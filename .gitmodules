@@ -1,3 +1,3 @@
 [submodule "libbash"]
 	path = libbash
-	url = git@github.com:qinshulei/libbash.git
+	url = https://github.com/qinshulei/libbash.git 
