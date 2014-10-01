@@ -20,57 +20,57 @@ cd ~/ubuntu-shell
 
 ## 局部安装
 
-### guake 安装 ： 一款很好用的终端
+### [guake](https://github.com/Guake/guake/) 安装 ： 一款很好用的终端
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-guake
 ```
 
-### shutter 安装 : 截屏软件
+### [shutter](http://shutter-project.org/) 安装 : 截屏软件
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-shutter
 ```
 
-### emacs 安装 ： 功能最强大的文本编辑器，没有之一
+### [emacs](http://www.gnu.org/software/emacs/) 安装 ： 功能最强大的文本编辑器，没有之一
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-emacs24
 ./emacs-setting/init-with-purcell-setting
 ```
 
-### node 安装 ： nodejs 环境
+### [node](http://www.nodejs.org/) 安装 ： nodejs 环境
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-nodejs
 ./npm-install/install-yo-bower-grunt
 ```
 
-### ruby and compass 安装 ： 如果使用 grunt 之类的自动化工具会依赖它
+### [ruby](https://www.ruby-lang.org/en/) and [compass](http://compass-style.org/) 安装 ： 如果使用 grunt 之类的自动化工具会依赖它
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-ruby-and-compass
 ```
 
-### mongodb 安装 ： nosql数据库
+### [mongodb](http://www.mongodb.org/) 安装 ： nosql数据库
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-mongodb
 ```
 
-### zsh install ： 交互性更好shell，兼容bash，但有着更优秀的补全。使用oh-my-zsh作为配置
+### [zsh](http://www.zsh.org/) and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/) install ： 交互性更好shell，兼容bash，但有着更优秀的补全。使用oh-my-zsh作为配置
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-zsh
 ```
 
-### ack install : grep 的一个替代品，内置多种代码文件类型，非常适合源码搜索。
+### [ack](http://beyondgrep.com/) install : grep 的一个替代品，内置多种代码文件类型，非常适合源码搜索。
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-ack
 ```
 
-### htop : top 的替代品 ，交互更好
+### [htop](http://hisham.hm/htop/) : top 的替代品 ，交互更好
 ```shell
 cd ~/ubuntu-shell
 ./software-install/install-htop
