@@ -1,0 +1,11 @@
+#!/bin/bash
+sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
+im-switch -s ibus
+
+# sudo apt-get install ibus-pinyin
+# sudo apt-get install ibus-table-wubi
+sudo apt-get install ibus-googlepinyin
+# sudo apt-get install ibus-sunpinyin
+
+ibus-setup
+# ibus-daemon -drx
