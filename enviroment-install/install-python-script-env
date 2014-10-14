@@ -1,0 +1,17 @@
+#!/bin/bash
+# http://nvie.com/posts/writing-a-cli-in-python-in-under-60-seconds/
+
+curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
+
+pipsi install cookiecutter
+
+cd ~/Desktop
+cookiecutter https://github.com/nvie/cookiecutter-python-cli.git
+cd python-mytool/
+tox
+pipsi install --editable .
+my-tool
+my-tool --as-cowboy
+my-tool --as-cowboy Vincent
+# pipsi install <pkgname>  # install from PyPI
+# pipsi install --editable ../path/to/project/dir   # install locally
