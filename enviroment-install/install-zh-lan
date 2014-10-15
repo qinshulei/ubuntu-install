@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get install language-pack-zh-hant language-pack-zh-hans
+sudo echo 'LANG="zh_CN.UTF-8"' >/etc/default/locale
+sudo echo 'LANGUAGE="zh_CN:zh:en_US:en"' >>/etc/default/locale
