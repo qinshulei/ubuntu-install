@@ -1,6 +1,6 @@
 #!/bin/bash
 # website : https://www.ruby-lang.org/en
-sudo apt-get install ruby
+sudo apt-get install ruby1.9.3 
 sudo apt-get install rubygems
 sudo gem update --system
 
