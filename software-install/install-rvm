@@ -1,0 +1,3 @@
+#!/bin/bash
+curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby --rails --trace
+sed -i -e 's/ftp\.ruby-lang\.org\/pub\/ruby/ruby\.taobao\.org\/mirrors\/ruby/g' ~/.rvm/config/db
