@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# http://isfate.com/607.html
+
+sudo apt-get install pptpd
+sudo echo 'localip 192.168.88.1 ' >>/etc/pptp.conf
+sudo echo 'remoteip 192.168.88.66-88' >>/etc/pptp.conf
+sudo vi /etc/pptpd.conf
+sudo echo 'qinshulei PPTPD 6314156 *' >>/etc/ppp/chap-secrets
+#
+sudo sysctl -p
+sbin/iptables -t nat -A POSTROUTING -s 192.168.65.49/24 -o eth0 -j MASQUERADE
