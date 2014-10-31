@@ -1,0 +1,3 @@
+#!/bin/bash
+# directory diff
+sudo apt-get install meld
