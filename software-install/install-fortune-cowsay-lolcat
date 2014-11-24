@@ -1,0 +1,7 @@
+#!/bin/bash
+# https://ruby-china.org/topics/5736
+sudo apt-get install fortune
+gem install cowsay lolcat
+# add to bashrc or zshrc
+# [ -f "$HOME/.rvm/scripts/rvm" ] && source $HOME/.rvm/scripts/rvm
+# cowsay `fortune` | lolcat
