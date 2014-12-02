@@ -1,4 +1,5 @@
 ###   Handy Extract Program
+# add to .zshrc or .bashrc
 
 extract () {
     if [ -f $1 ] ; then
