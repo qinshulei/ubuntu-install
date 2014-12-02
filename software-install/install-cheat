@@ -1,8 +1,7 @@
 #!/bin/bash -e
 pip install docopt
 cd ~
-git clone https://github.com/chrisallenlane/cheat.git .cheat
-cd .cheat
+git clone https://github.com/chrisallenlane/cheat.git cheat
+cd cheat
 python setup.py install
 pip install cheat
-sudo chmod a+rwx ~/.cheat
