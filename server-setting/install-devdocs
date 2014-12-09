@@ -1,0 +1,8 @@
+#!/bin/bash
+# https://github.com/Thibaut/devdocs
+# install ruby
+git clone https://github.com/Thibaut/devdocs.git && cd devdocs
+gem install bundler
+bundle install
+thor docs:download --all
+rackup
