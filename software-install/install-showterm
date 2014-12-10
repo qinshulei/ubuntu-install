@@ -1,0 +1,3 @@
+#!/bin/bash
+curl showterm.io/showterm > ~/bin/showterm
+chmod +x ~/bin/showterm
