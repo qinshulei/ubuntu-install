@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo apt-get install squid
+
+# sudo vi /etc/squid/squid.conf
+## acl internal_network src 192.168.1.0/24
+## http_access allow internal_network
+sudo chown -R proxy:proxy /var/log/squid/
+sudo chown proxy:proxy /etc/squid/squid.conf
+
+sudo /etc/init.d/squid restart
