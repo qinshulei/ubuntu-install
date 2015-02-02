@@ -1,0 +1,3 @@
+#!/bin/bash
+# https://virtualenv.pypa.io/en/latest/installation.html
+sudo pip install virtualenv
