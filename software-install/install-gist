@@ -1,0 +1,3 @@
+#!/bin/bash
+# https://github.com/defunkt/gist
+gem install gist
