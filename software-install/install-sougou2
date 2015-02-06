@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo apt-get remove ibus 
+sudo add-apt-repository ppa:fcitx-team/nightly
+sudo apt-get update
+sudo apt-get install fcitx fcitx-config-gtk fcitx-sunpinyin fcitx-googlepinyin fcitx-module-cloudpinyin  fcitx-sogoupinyin  im-switch
+sudo im-switch -s fcitx -z default
