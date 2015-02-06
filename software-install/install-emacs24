@@ -2,4 +2,4 @@
 # website : http://www.gnu.org/software/emacs
 sudo add-apt-repository ppa:cassou/emacs
 sudo apt-get update
-sudo apt-get install emacs24
+sudo apt-get install -y -q  emacs24

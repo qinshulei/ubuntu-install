@@ -5,13 +5,13 @@
 sudo add-apt-repository ppa:fcitx-team/nightly
 sudo apt-get update
 sudo apt-get upgrade
-#sudo apt-get install fcitx
-sudo apt-get install fcitx-googlepinyin
-sudo apt-get install fcitx-sunpinyin
+#sudo apt-get install -y -q  fcitx
+sudo apt-get install -y -q  fcitx-googlepinyin
+sudo apt-get install -y -q  fcitx-sunpinyin
 im-switch -s fcitx
 # killall ibus-daemon
 # sudo apt-get autoremove ibus ibus-sunpinyin
 #sudo dpkg -i ./deb/sogou_pinyin_linux_1.1.0.0037_amd64.deb
-#sudo apt-get install -f
+#sudo apt-get install -y -q  -f
 fcitx -r --enable fcitx-qimpanel
 fcitx-qimpanel

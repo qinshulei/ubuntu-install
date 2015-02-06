@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install rar unrar 
+sudo apt-get install -y -q  rar unrar
