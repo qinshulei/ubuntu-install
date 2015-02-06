@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install smbfs
+sudo apt-get install -y -q  smbfs
