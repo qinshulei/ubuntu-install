@@ -26,4 +26,4 @@ sudo pip install percol
 #     local cli=`find $PWD -not -iwholename '*/target/*' -not -iwholename '*.svn*' -not -iwholename '*.git*' -not -iwholename '*.sass-cache*' -not -iwholename '*.hg*' -type f -iwholename '*'${filename}'*' -print | percol`
 #     echo ${cli}
 #     echo -n ${cli} | pclip;
-}
+#}

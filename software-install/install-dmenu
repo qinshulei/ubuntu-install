@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install dmenu
+sudo apt-get install -y -q  dmenu

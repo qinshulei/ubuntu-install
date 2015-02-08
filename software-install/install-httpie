@@ -1,0 +1,3 @@
+#!/bin/bash
+# https://github.com/jakubroztocil/httpie
+sudo pip install --upgrade httpie

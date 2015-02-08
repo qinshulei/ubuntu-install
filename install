@@ -23,7 +23,7 @@ ${base_dir}/software-install/install-ruby-and-compass
 ${base_dir}/software-install/install-shutter
 
 ## install mongoDB
-${base_dir}/software-install/install-mongodb
+#${base_dir}/software-install/install-mongodb
 
 ## install zsh
 ${base_dir}/software-install/install-zsh

@@ -1,4 +1,4 @@
 #!/bin/bash
 wget http://www.skype.com/go/getskype-linux-deb skype-linux.deb
 sudo dpkg -i skype-linux.deb
-sudo apt-get install -f
+sudo apt-get install -y -q  -f
