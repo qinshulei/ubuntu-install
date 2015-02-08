@@ -1,8 +1,8 @@
 #!/bin/bash
 # https://about.gitlab.com/gitlab-ce/
 wget https://downloads-packages.s3.amazonaws.com/ubuntu-12.04/gitlab_7.3.2-omnibus-1_amd64.deb
-sudo apt-get install openssh-server
-sudo apt-get install postfix # Select 'Internet Site', using sendmail instead also works, exim has problems
+sudo apt-get install -y -q openssh-server
+sudo apt-get install -y -q  postfix # Select 'Internet Site', using sendmail instead also works, exim has problems
 sudo dpkg -i gitlab_7.3.2-omnibus-1_amd64.deb
 sudo -e /etc/gitlab/gitlab.rb
 sudo gitlab-ctl reconfigure

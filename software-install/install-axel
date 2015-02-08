@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install axel
+sudo apt-get install -y -q  axel

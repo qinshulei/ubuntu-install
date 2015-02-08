@@ -63,6 +63,11 @@ setup "tar the global tar file" \
     "tar the global tar file failed" \
     ;
 
+setup "install libncurses5-dev libs" \
+    sudo apt-get install -y -q libncurses5-dev \
+    "install libncurses5-dev lib failed" \
+    ;
+
 cd ~/source-install/global/global-6.3.1/
 echoH2 "try build global"
 setup "run configure" \

@@ -2,7 +2,7 @@
 
 # http://isfate.com/607.html
 
-sudo apt-get install pptpd
+sudo apt-get install -y -q  pptpd
 sudo echo 'localip 192.168.88.1 ' >>/etc/pptp.conf
 sudo echo 'remoteip 192.168.88.66-88' >>/etc/pptp.conf
 sudo vi /etc/pptpd.conf

@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install squid
+sudo apt-get install -y -q  squid
 
 # sudo vi /etc/squid/squid.conf
 ## acl internal_network src 192.168.1.0/24

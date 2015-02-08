@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install jack-tools ant openjdk-6-jdk fftw3 qjackctl
+sudo apt-get install -y -q  jack-tools ant openjdk-6-jdk fftw3 qjackctl
