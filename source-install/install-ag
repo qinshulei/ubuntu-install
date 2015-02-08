@@ -1,0 +1,67 @@
+#!/bin/bash
+#: Title                  : install-ag
+#: Synopsis               : none
+#: Date                   : 2015-02-08 13:35:55
+#: Author                 : shulei
+#: version                : 1.0
+#: Description            : install ag
+#: Options                : -v set to display message
+#: Source                 : https://github.com/ggreer/the_silver_searcher
+pushd $PWD
+
+## Script path
+script_path="${0%/*}"  # remove the script name ,get the path
+script_path=${script_path/\./$(pwd)} # if path start with . , replace with $PWD
+cd "${script_path}"
+
+## source lib
+source ../libbash/bashr.sh
+
+##init parameters
+MESSAGE_ENABLED=n
+
+
+## get parameters
+## parse command-line options,  -m
+while getopts "vb:" var
+do
+    case $var in
+        v)
+            MESSAGE_ENABLED=y
+            ;;
+    esac
+done
+shift $(( $OPTIND - 1 ))
+
+##content
+echoH1 "Start install ag"
+
+setup "validation ~/source-install directory exists" \
+      ls ~/source-install \
+      "can't find ~/source-install dir ,please create it first" \
+;
+
+setup "apt-get install libs" \
+      sudo apt-get install -q -y automake pkg-config libpcre3-dev zlib1g-dev liblzma-dev \
+      "apt-get install libs failed" \
+;
+
+setup "git clone ag into  ~/source-install/ag" \
+      git clone https://github.com/ggreer/the_silver_searcher.git ~/source-install/ag \
+      "git clone ag into  ~/source-install/ag failed" \
+;
+
+## change dir
+cd ~/source-install/ag/
+echoH2 "try build ag"
+setup "run build" \
+      ./build.sh  \
+      "ag build failed" \
+;
+
+setup "make install" \
+      sudo make install \
+      "ag make install failed" \
+;
+
+popd > /dev/null
