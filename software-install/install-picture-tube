@@ -1,0 +1,3 @@
+#!/bin/bash
+# https://github.com/substack/picture-tube
+npm install -g picture-tube
