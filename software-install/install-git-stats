@@ -1,0 +1,4 @@
+#!/bin/bash
+# https://github.com/IonicaBizau/git-stats
+npm install -g git-stats
+npm install -g git-stats-importer

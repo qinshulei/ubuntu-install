@@ -1,0 +1,3 @@
+#!/bin/bash
+# monitor file change
+sudo apt-get install -q -y auditd 

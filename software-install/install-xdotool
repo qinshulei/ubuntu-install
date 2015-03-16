@@ -1,0 +1,5 @@
+#!/bin/bash
+# fake keyboard/mouse input, window management, and more
+# https://github.com/jordansissel/xdotool
+# also see : https://github.com/Quintus/Automations
+sudo apt-get install xdotool
