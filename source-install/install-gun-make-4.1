@@ -1,0 +1,27 @@
+#!/bin/bash -ex
+cd ~/source-install
+mkdir make
+
+cd make
+
+lftp ftp://ftp.gnu.org/gnu/make/ <<EOF
+get make-4.1.tar.gz
+exit
+EOF
+
+tar -xzvf make-4.1.tar.gz
+cd make-4.1
+
+./configure
+sudo make install
+##################################
+sudo mv /usr/bin/make /usr/bin/make-3.81
+sudo ln -s /usr/local/bin/make /usr/bin
+################ other way #########
+## http://askubuntu.com/questions/509012/make-3-82-on-ubuntu-12-04
+#sudo apt install checkinstall
+#./configure --prefix=/usr
+#make
+#sudo checkinstall make install
+#
+###############################
