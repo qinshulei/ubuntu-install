@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo pip install thefuck
+# sudo easy_install thefuck
+
+# And add to .bashrc or .zshrc:
+# alias fuck='$(thefuck $(fc -ln -1))'
+# You can use whatever you want as an alias, like for mondays:
+# alias FUCK='fuck'
+

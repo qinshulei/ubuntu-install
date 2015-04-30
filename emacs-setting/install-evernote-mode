@@ -1,0 +1,4 @@
+#!/bin/bash
+# https://github.com/pymander/evernote-mode
+gem install evernote_oauth
+# copy evernote-mode.el

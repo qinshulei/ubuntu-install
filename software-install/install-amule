@@ -1,0 +1,3 @@
+#!/bin/bash
+# install a ed2k client
+sudo apt-get install -y -q amule
