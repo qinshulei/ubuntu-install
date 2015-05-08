@@ -1,0 +1,7 @@
+#!/bin/bash
+# https://github.com/facebook/PathPicker
+
+cd ~/bin
+git clone https://github.com/facebook/PathPicker.git
+ln -s PathPicker/fpp fpp
+fpp --help
