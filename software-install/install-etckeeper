@@ -1,0 +1,4 @@
+#!/bin/bash
+# http://etckeeper.branchable.com/README/
+
+sudo apt-get install etckeeper
