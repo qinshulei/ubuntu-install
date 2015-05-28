@@ -1,0 +1,4 @@
+#!/bin/bash
+# https://github.com/joealba/gitswitch  
+# switch git user between company and personal
+gem install gitswitch

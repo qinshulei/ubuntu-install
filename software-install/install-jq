@@ -1,0 +1,3 @@
+#!/bin/bash
+# https://github.com/stedolan/jq
+sudo apt-get install -y -q jq
