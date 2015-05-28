@@ -1,0 +1,3 @@
+#!/bin/bash
+# simple install and no need setting
+sudo apt-get install pure-ftpd 

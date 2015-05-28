@@ -1,0 +1,3 @@
+#!/bin/bash
+# need change /etc/vsftpd.conf and can support very complex setting like virtue user
+sudo apt-get install vsftpd
