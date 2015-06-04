@@ -1,0 +1,3 @@
+#!/bin/bash
+# this can use multiple dns server for diffrent domain name
+sudo apt-get install -q -y dnsmasq
