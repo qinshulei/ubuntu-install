@@ -1,0 +1,3 @@
+#!/bin/bash
+# add debuild command
+sudo apt-get install devscripts
