@@ -1,0 +1,4 @@
+#!/bin/bash
+# install autoenv , and add source activate.sh to .bashrc or .zshrc
+sudo pip install autoenv
+# then you can add .env in your project to change the env for the project 
