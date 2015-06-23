@@ -1,0 +1,5 @@
+#!/bin/bash
+# http://knsv.github.io/mermaid/mermaidCLI.html
+# sequence diagram
+npm install -g mermaid
+npm install -g phantomjs
