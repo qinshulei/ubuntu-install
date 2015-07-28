@@ -1,0 +1,5 @@
+#!/bin/bash
+# https://github.com/mrowa44/emojify
+sudo sh -c "curl https://raw.githubusercontent.com/mrowa44/emojify/master/emojify -o /usr/local/bin/emojify && chmod +x /usr/local/bin/emojify"
+# should install the symbola font
+# TTF available here: http://www.fonts2u.com/symbola.font
