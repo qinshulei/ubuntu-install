@@ -1,0 +1,6 @@
+#!/bin/bash
+# https://github.com/houtianze/bypy
+# Python client for Baidu Yun (Personal Cloud Storage) 
+sudo pip install requests
+mkdir -p ~/source-install
+git clone https://github.com/houtianze/bypy.git ~/source-install
