@@ -1,0 +1,3 @@
+#!/bin/bash
+# https://github.com/dbcli/pgcli
+sudo pip install pgcli
