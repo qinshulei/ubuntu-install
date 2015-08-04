@@ -1,0 +1,4 @@
+#!/bin/bash
+# http://www.nightmarejs.org/
+# https://github.com/segmentio/nightmare
+sudo npm install -g nightmare
