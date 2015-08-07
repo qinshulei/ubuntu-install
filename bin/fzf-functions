@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -A function | fzf
+compgen -A function | sort | uniq | fzf
