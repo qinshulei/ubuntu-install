@@ -1,0 +1,16 @@
+#!/bin/bash
+# https://www.vagrantup.com/downloads.html
+# https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.4_x86_64.deb
+
+mkdir -p ~/source-install/vagrant
+cd ~/source-install/vagrant
+
+echo "download https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.4_x86_64.deb to ~/source-install/vagrant"
+echo "then : "
+echo "dpkg -i vagrant_1.7.4_x86_64.deb"
+exit 1
+
+#
+# axel -n 10 https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.4_x86_64.deb
+
+sudo dpkg -i vagrant_1.7.4_x86_64.deb
