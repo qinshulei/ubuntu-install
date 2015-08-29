@@ -1,2 +1,5 @@
 #!/bin/bash
+# install openvpn command
 sudo apt-get install -y -q  openvpn
+# install openvpn network mananger
+sudo apt-get install -y -q network-manager-openvpn
