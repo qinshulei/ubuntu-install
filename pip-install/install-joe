@@ -1,0 +1,5 @@
+#!/bin/bash
+# rank : 5
+# https://github.com/karan/joe
+#  A .gitignore magician in your command line http://karan.github.io/joe/
+sudo pip install joe

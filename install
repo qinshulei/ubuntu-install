@@ -9,7 +9,7 @@ ${base_dir}/software-install/install-markdown
 
 ## install emacs
 ${base_dir}/software-install/install-emacs24
-${base_dir}/emacs-setting/init-with-purcell-setting
+${base_dir}/settings/emacs-setting/init-with-purcell-setting
 
 ## install node
 ${base_dir}/software-install/install-nodejs

@@ -1,3 +1,0 @@
-#!/bin/bash
-# https://github.com/karan/joe
-sudo pip install joe

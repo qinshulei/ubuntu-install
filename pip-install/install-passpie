@@ -1,0 +1,5 @@
+#!/bin/bash
+# rank : 1
+# https://github.com/marcwebbie/passpie
+# Passpie manages encrypted login credentials from terminal https://git.io/passpie
+sudo pip install passpie

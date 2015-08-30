@@ -1,0 +1,4 @@
+#!/bin/bash
+# https://github.com/jakubroztocil/httpie
+# CLI HTTP client; user-friendly cURL replacement featuring intuitive UI, JSON support, syntax highlighting, wget-like downloads, extensions, etc. http://httpie.org
+sudo pip install --upgrade httpie

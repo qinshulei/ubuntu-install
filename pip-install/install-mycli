@@ -1,0 +1,5 @@
+#!/bin/bash
+# rank : 5
+# https://github.com/dbcli/mycli
+# A Terminal Client for MySQL with AutoCompletion and Syntax Highlighting.
+sudo pip install mycli
