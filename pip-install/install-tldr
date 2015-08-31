@@ -1,0 +1,5 @@
+#!/bin/bash
+# rank : 5
+# https://github.com/tldr-pages/tldr
+# Simplified and community-driven man pages
+sudo pip install tldr
