@@ -1,7 +1,0 @@
-#!/bin/bash -e
-sudo pip install docopt pygments
-cd ~
-git clone https://github.com/chrisallenlane/cheat.git cheat
-cd cheat
-sudo python setup.py install
-sudo pip install cheat
