@@ -1,0 +1,4 @@
+#!/bin/bash
+# zip and unzip
+# rank : basic
+sudo apt-get install -y -q zip
