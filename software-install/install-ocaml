@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo apt-get isntall -y -q ocaml
+sudo apt-get install -y -q ocaml-native-compilers ocaml-doc tuareg-mode ocaml-findlib oasis libpcre-ocaml-dev
