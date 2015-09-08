@@ -5,3 +5,15 @@ curl -L http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_14.04
 sudo apt-add-repository http://download.opensuse.org/repositories/home:kamilprusko/xUbuntu_14.04/
 sudo apt-get update
 sudo apt-get install gnome-pomodoro
+
+# install by source
+# git clone -b gnome-3.10 https://github.com/codito/gnome-pomodoro.git
+# cd gnome-pomodoro
+# sudo apt-get install gnome-common intltool valac libglib2.0-dev gobject-introspection libgirepository1.0-dev libgtk-3-dev libgnome-desktop-3-dev libcanberra-dev libdbus-glib-1-dev libgstreamer1.0-dev libupower-glib-dev fonts-droid
+# ./autogen.sh --prefix=/usr --datadir=/usr/share
+# make
+# sudo make install
+
+# run in first time
+# killall gnome-pomodoro
+# gnome-pomodoro
