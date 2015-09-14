@@ -1,0 +1,3 @@
+#!/bin/bash
+# Tidy reads HTML, XHTML and XML files and writes cleaned up markup. For HTML variants, it detects and corrects many common coding errors and strives to produce visually equivalent markup that is both W3C compliant and works on most browsers.
+sudo apt-get install -y -q tidy

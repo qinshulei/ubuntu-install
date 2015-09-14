@@ -1,0 +1,5 @@
+#!/bin/bash
+# rank : 5
+# A next-generation cd command with an interactive filter
+# https://github.com/b4b4r07/enhancd
+curl -L git.io/enhancd | sh
