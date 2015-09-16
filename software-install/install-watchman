@@ -1,0 +1,13 @@
+#!/bin/bash
+# https://facebook.github.io/watchman/docs/install.html
+# Watchman
+# You can use these steps below to get watchman built. You will need autoconf and automake. You may optionally build watchman with pcre and python support. For python support, you will also need setuptools and may need to install a python-dev or python-devel package.
+
+cd ~/source-install
+git clone https://github.com/facebook/watchman.git
+cd watchman
+git checkout v3.7.0  # the latest stable release
+./autogen.sh
+./configure
+make
+sudo make install

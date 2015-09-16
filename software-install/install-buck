@@ -1,0 +1,17 @@
+#!/bin/bash
+# A high-performance build tool
+# https://buckbuild.com/setup/install.html
+
+# Depends:
+# Oracle JDK 7
+# Apache Ant 1.8 (or newer)
+# Python 2.6 or 2.7
+# Git
+# A working C compiler (gcc or clang). Not currently required on Windows.
+
+sudo apt-get install -y -q python-dev
+cd ~/source-install
+git clone https://github.com/facebook/buck.git
+cd buck
+ant
+./bin/buck --help

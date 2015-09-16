@@ -1,0 +1,5 @@
+#!/bin/bash
+# ssh fs
+# sshfs human@192.168.1.218:/home/ /mnt/server218/
+# fusemount -u mount_point
+sudo apt-get install sshfs fusemount
