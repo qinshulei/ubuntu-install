@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir -p ~/source-install
+cd ~/source-install
+wget http://ftp.riken.jp/net/apache//ant/binaries/apache-ant-1.9.6-bin.tar.gz apache-ant-1.9.6-bin.tar.gz
+tar xzvf apache-ant-1.9.6-bin.tar.gz
+echo "add ${HOME}/source-intall/apache-ant-1.9.6/bin into you path"

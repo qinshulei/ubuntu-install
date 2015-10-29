@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo apt-get install -y -q openjdk-7-jdk
+# sudo update-alternatives --config java
+# sudo update-alternatives --config javac
