@@ -1,0 +1,8 @@
+#!/bin/bash
+# website : https://github.com/supercrabtree/k
+# rank : 5
+# Directory listings for zsh with git features
+# need oh-my-zsh installed
+git clone https://github.com/supercrabtree/k $HOME/.oh-my-zsh/custom/plugins/k
+# Then load as a plugin in your .zshrc
+# plugins+=(k)
