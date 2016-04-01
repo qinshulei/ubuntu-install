@@ -1,4 +1,5 @@
 #!/bin/bash
 # https://github.com/so-fancy/diff-so-fancy
 # Good-lookin' diffs with diff-highlight and more
+# usage: git diff --color 'HEAD^..HEAD' | diff-so-fancy
 npm install -g diff-so-fancy
