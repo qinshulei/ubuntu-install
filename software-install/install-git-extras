@@ -1,0 +1,5 @@
+#!/bin/bash
+# link : https://github.com/tj/git-extras/blob/master/Installation.md
+# rank : 5
+
+sudo apt-get install -y git-extras
