@@ -1,0 +1,4 @@
+#!/bin/bash
+# https://github.com/lra/mackup
+# Keep your application settings in sync.
+pip install -g mackup
