@@ -1,0 +1,15 @@
+#!/bin/bash
+# Flatabulous
+# https://github.com/anmoljagetia/Flatabulous
+
+sudo add-apt-repository ppa:tualatrix/ppa
+sudo apt-get update
+sudo apt-get install -y ubuntu-tweak
+
+sudo add-apt-repository ppa:noobslab/themes
+sudo apt-get update
+sudo apt-get install -y flatabulous-theme
+
+sudo add-apt-repository ppa:noobslab/icons
+sudo apt-get update
+sudo apt-get install -y ultra-flat-icons

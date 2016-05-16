@@ -1,0 +1,12 @@
+#!/bin/bash
+# rime 中州韵输入法引擎
+
+# this repo provides libkyotocabinet, libgoogle-glog for Ubuntu 12.04;
+# these packages are officially supported since Ubuntu 12.10.
+sudo add-apt-repository ppa:fcitx-team/nightly
+
+# providing libyaml-cpp0.5, librime, rime-data, ibus-rime
+sudo add-apt-repository ppa:lotem/rime
+
+sudo apt-get update
+sudo apt-get install ibus-rime
