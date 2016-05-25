@@ -1,0 +1,4 @@
+#!/bin/bash
+# for emacs gif support
+# https://github.com/Malabarba/camcorder.el
+sudo apt-get install -y recordmydesktop
