@@ -1,0 +1,5 @@
+#!/bin/bash
+# install for change the location of ubuntu unity to bottom
+# http://www.howtogeek.com/202708/how-to-convert-the-unity-launcher-into-a-dock-style-launcher/
+# system setting hide unity
+sudo apt-get install -y cairo-dock
