@@ -1,0 +1,18 @@
+#!/bin/bash
+# http://ntfy.readthedocs.io/en/latest/
+# ntfy brings notification to your shell. It can automatically provide desktop notifications when long running commands finish or it can send push notifications to your phone when a specific command finishes.
+sudo pip install ntfy
+
+## introduce
+# $ ntfy send test
+# send a notification when the command `sleep 10` finishes
+# this sends the message '"sleep 10" succeeded in 0:10 minutes'
+# $ ntfy done sleep 10
+# $ ntfy -b pushover -o user_key t0k3n send 'Pushover test!'
+# $ ntfy -t 'ntfy' send "Here's a custom notification title!"
+# $ echo -e 'backends: ["pushover"]\npushover: {"user_key": "t0k3n"}' > ~/.ntfy.yml
+# $ ntfy send "Pushover via config file!"
+# $ ntfy done --pid 6379  # PID extra
+# $ ntfy send ":tada: ntfy supports emoji! :100:"  # emoji extra
+# Enable shell integration
+# $ echo 'eval "$(ntfy shell-integration)"' >> ~/.bashrc
