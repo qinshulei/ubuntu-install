@@ -1,0 +1,20 @@
+#!/bin/bash
+# https://docs.sandstorm.io
+# http://xip.io/
+
+curl https://install.sandstorm.io | bash
+# use dev install
+sudo vi /opt/sandstorm/sandstorm.conf
+# change the config like this.
+:<<EOF
+SERVER_USER=sandstorm
+PORT=6080
+MONGO_PORT=6081
+BIND_IP=0.0.0.0
+BASE_URL=http://192.168.67.225.xip.io:6080
+WILDCARD_HOST=*.192.168.67.225.xip.io:6080
+UPDATE_CHANNEL=dev
+ALLOW_DEV_ACCOUNTS=yes
+EOF
+
+sudo sandstorm restart
