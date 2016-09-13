@@ -1,0 +1,4 @@
+#!/bin/bash
+# http://babeljs.io/
+# Babel transforms your JavaScript
+sudo npm install -g babel-cli
