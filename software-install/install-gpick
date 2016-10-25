@@ -1,0 +1,3 @@
+#!/bin/bash
+# ubuntu pick color
+sudo apt-get install gpick
