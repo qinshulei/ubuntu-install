@@ -1,0 +1,3 @@
+#!/bin/bash
+# a tool generate doc from python source code. and it have pretty class diagram
+sudo apt-get install -y python-epydoc
